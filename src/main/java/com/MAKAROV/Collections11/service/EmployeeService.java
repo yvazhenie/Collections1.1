@@ -2,7 +2,7 @@ package com.MAKAROV.Collections11.service;
 
 import com.MAKAROV.Collections11.model.Employee;
 
-import java.util.List;
+import java.util.Collection;
 
 
 public interface EmployeeService {
@@ -14,5 +14,5 @@ public interface EmployeeService {
 
     Employee findEmployee(String firstName, String lastName, Integer id, String fio, Integer salary, Integer department);
 
-    List<Employee> getAllEmployee();
+    Collection<Employee> getAllEmployee();
 }
